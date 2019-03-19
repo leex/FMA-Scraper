@@ -36,8 +36,9 @@ Most of these modules come preinstalled with Python nowadays.
 
 1. Copy the script files into the directory you wish for the music to be downloaded into.
 2. Ensure you have write permission in that directory.
-3. Run 'FMA Scraper.py', this will create a list of download URLs for songs.
-4. Run 'FMA Downloader.py', this will download any lists of songs found into a directory.
+3. Edit 'FMA Scraper.py' and change the 'search_string' and 'number_of_items_to_search'.
+4. Run 'FMA Scraper.py', this will create a list of download URLs for songs.
+5. Run 'FMA Downloader.py', this will download any lists of songs found into a directory.
 
 ## Credit
 

@@ -14,6 +14,9 @@ print("\nstarting scraping\n")
 # The search string, you should change this to what you want to search for
 search_string = 'KEXP'
 
+# The number of items to return in the search and scrape, I have tested up to 1000
+number_of_items_to_search = '100'
+
 # How many records to ignore at the beginning of the scrap (if you've already scraped some)
 count_offset = args['integers']
 
@@ -21,9 +24,6 @@ print("offset set to " + str(count_offset) + ".")
 
 # The name of the file to create
 filename = 'scraped_download_links'
-
-# The number of items to return in the search and scrape, I have tested up to 1000
-number_of_items_to_search = '100'
 
 # The regex to find the download link, you probably don't need to change this
 regex_find_download_link = re.compile('((https:\/\/freemusicarchive.org\/music\/download\/)\w+)')
